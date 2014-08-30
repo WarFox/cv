@@ -1,0 +1,47 @@
+body {
+  background: url('http://files.deepumohan.com/images/grain.gif');
+  font-family: 'Arvo','Vollkorn',Georgia, serif, 'Trebuchet MS';
+}
+
+#main {
+  background: #fff;
+  box-shadow: 0 0 6px #ccc;
+}
+
+header {
+  margin-top: 5px;
+}
+
+header h1 a { font-size: 1.3em;}
+
+address { border-left: 1px solid #ccc; margin-bottom: 0;}
+address .help-block { margin-top: 0; margin-bottom: 0;}
+
+section h2 { border-bottom: 1px solid #ccc;}
+
+section h2 { margin-top: 5px; margin-bottom: 5px;}
+
+abbr[title] { border-bottom: 0; }
+
+a {
+  text-decoration: none;
+  background-color:transparent;
+  color: #231f20;
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0caee3;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+}
+
+.item .row {margin:0;}
+
+.vcard .addr { font-size: 8pt;}
