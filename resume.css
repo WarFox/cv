@@ -17,18 +17,32 @@ header {
 
 header h1 a { font-size: 1.3em;}
 
-address { border-left: 1px solid #ccc; margin-bottom: 0;}
-address .help-block { margin-top: 0; margin-bottom: 0;}
+#brand {float: left;}
 
-section h2 { border-bottom: 1px solid #ccc;}
+.addr {
+  border-left: 1px solid #ccc;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-size: 8pt;
+  float: right;
+}
 
-section h2 { margin-top: 5px; margin-bottom: 5px;}
+.addr .help-block { margin-top: 0; margin-bottom: 0;}
+
+section h2 {
+  font-size: 1.3em;
+  border-bottom: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+section h3 { font-size: 1.3em; }
 
 abbr[title] { border-bottom: 0; }
 
 a {
   text-decoration: none;
-  background-color:transparent;
   color: #231f20;
   -webkit-transition: color .5s ease;
   -moz-transition: color .5s ease;
@@ -45,6 +59,5 @@ a:hover {
     transition: color .5s ease;
 }
 
+.item a {  border-bottom: 1px dotted #ccc;}
 .item .row {margin:0;}
-
-.vcard .addr { font-size: 8pt;}
