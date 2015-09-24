@@ -13,5 +13,5 @@ after_success:
 branches:
   only:
     - master
-sudo:false
+sudo: false
 
