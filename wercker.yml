@@ -1,0 +1,29 @@
+box: debian
+build:
+  steps:
+    - script:
+        name: hello
+        code: |
+          echo "make build"
+          mkdir public
+          cp index.html public/index.html
+          cp resume*.css public/
+
+deploy:
+    steps:
+        - add-to-known_hosts:
+            hostname: $HOSTNAME
+        - mktemp:
+            envvar: PRIVATEKEY_PATH
+        - create-file:
+            name: write key
+            filename: $PRIVATEKEY_PATH
+            content: $DEPLOY_PRIVATE
+            overwrite: true
+            hide-from-log: true
+        - script:
+            name: transfer files
+            code: |
+                pwd
+                ls -la
+                scp -i $PRIVATEKEY_PATH -o StrictHostKeyChecking=no -o UserKnownHostsFile=no -P $PORT -v -r public/* $USER@$HOSTNAME:$DEPLOY_DIR
