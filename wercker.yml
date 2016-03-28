@@ -2,7 +2,7 @@ box: debian
 build:
   steps:
     - script:
-        name: hello
+        name: build
         code: |
           echo "make build"
           mkdir public
@@ -11,6 +11,8 @@ build:
 
 deploy:
     steps:
+        - install-packages:
+            packages: openssh-client
         - add-to-known_hosts:
             hostname: $HOSTNAME
         - mktemp:
