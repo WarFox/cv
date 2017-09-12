@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>$title$</title>
+
+    <link rel="profile" href="http://microformats.org/profile/hcard" />
+    <link rel="profile" href="http://microformats.org/profile/hcalendar" />
+    <link rel="profile" href="http://microformats.org/profile/hresume" />
+
+    <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css' />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/style.css" />
+
+</head>
+
+<body>
+    <div id="main" class="container">
+
+        <!-- Header //-->
+        <header class="vcard row">
+            <div id="brand" class="fn col-md-9">
+                <h1 id="title">
+                    <a href="https://deepumohan.com/" title="Deepu Mohan Puthrote">Deepu Mohan Puthrote</a>
+                </h1>
+            </div>
+            <address class="addr col-md-3">
+                <span class="locality">$address.location$</span>
+                <abbr class="country-name" title="$address.country$">$address.country_abbr$</abbr>
+                <span class="help-block"><i class="fa fa-mobile"></i>&nbsp;&nbsp;<a class="tel" href="tel:$contact.mobile$">$contact.mobile$</a> </span>
+                <span class="help-block"><i class="fa fa-home"></i>&nbsp;&nbsp;<a class="url" href="$homepage$">$homepage$</a> </span>
+                <span class="help-block"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<a class="email" href="mailto:$contact.email$">$contact.email$</a> </span>
+                <span class="help-block"><i class="fa fa-github"></i>&nbsp;&nbsp;<a class="url" href="$social.github$">$social.github$</a> </span>
+                <span class="help-block"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;<a class="url" href="$social.linkedin$">$social.linkedin$</a> </span>
+            </address>
+        </header>
+
+        $body$
+
+        <footer> $date$ </footer>
+    </div>
+</body>
+
+</html>

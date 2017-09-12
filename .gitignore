@@ -1,1 +1,18 @@
-*.txt
+# Created by https://www.gitignore.io/api/sass,werckercli
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+### WerckerCLI ###
+_steps
+_builds
+_cache
+_projects
+.wercker
+
+# End of https://www.gitignore.io/api/sass,werckercli
+
+# User specific
+dist
+build
