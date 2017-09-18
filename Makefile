@@ -3,6 +3,7 @@ BUILD_DIR = build
 IMAGES_DIR = $(SRC_DIR)/images
 DIST_DIR = dist
 DATE = $(shell date +'%B %d, %Y')
+UTC_DATE_TIME = $(shell date -u +'%B %d, %Y %H:%M:%S UTC')
 
 ifeq "$(wildcard $(SRC_DIR) )" ""
 	PARTS_SOURCES=
@@ -58,7 +59,7 @@ html: css templates/cv.html parts $(SRC_DIR)/cv.md | directories
 	  --to html5 \
 	  $(before-body) \
 	  $(after-body) \
-	  --variable=date:'$(DATE)' \
+	  --variable=utc_date_time:'$(UTC_DATE_TIME)' \
 	  --css stylesheets/style.css \
 	  --output $(DIST_DIR)/index.html $(SRC_DIR)/cv.md
 
@@ -68,7 +69,7 @@ $(PARTS): $(BUILD_DIR)/%.html: $(SRC_DIR)/%.md | directories
 	pandoc \
 	--section-divs \
 	--from markdown+header_attributes \
-	--variable=date:'$(DATE)' \
+	--variable=utc_date_time:'$(UTC_DATE_TIME)' \
 	--to html5 -o $@ $<
 
 # Target for cleaning
