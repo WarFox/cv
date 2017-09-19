@@ -26,29 +26,29 @@ ownership.
 
 - Polyglot software engineer with around 8 years experience in Java, Scala,
   Node.js (Python and Ruby)
-- Language and platform agnostic approach for problem solving with a focus on
+- Language and platform agnostic approach for problem-solving with a focus on
   keeping it simple.
-- Worked in Banking, Social Media, Advertising, Travel and Government sector
+- Worked in Banking, Social Media, Advertising, Travel, and Government sector
   domains.
 - Worked in machine learning and data pipeline projects using Apache Spark and
   Elasticsearch.
 - Contributed to open source projects like Dropwizard, Play framework etc on
   GitHub.
 - Expertise in designing and developing RESTful services.
-- Experience working in Agile (Scrum, Kanban) methodology with test driven
+- Experience working in Agile (Scrum, Kanban) methodology with test-driven
   development (TDD) and pair programming.
-- Full stack web application development, covering front end, middleware and
+- Full stack web application development, covering front end, middleware, and
   backend, including system architecture and database designing
 - Experience in full life-cycle of software development process including
   requirement collection, design specification, development, testing, debugging,
   deployment and maintenance.
-- Experience in working at multiple client sites and acted as single point of
+- Experience in working at multiple client sites and acted as a single point of
   contact and lead the team in development.
 - Proven track record of designing and developing flexible solutions, which
   support frequent changes to functionality and UI, to meet the client
   requirements.
 - Master's degree in E-Business and Information Systems from Newcastle
-  University, UK. Bachelor's in Computer Science and Engineering from University
+  University, UK. Bachelor's in Computer Science and Engineering from the University
   of Calicut, India.
 
 Strengths include:

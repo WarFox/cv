@@ -1,76 +1,14 @@
-box: debian
-
-# dev:
-#   box:
-#     ports:
-#       - 80:80
-#   steps:
-#     - install-packages:
-#         packages: make ruby-dev libffi-dev build-essential
-#     - script:
-#         name: gem_install
-#         code: |
-#           echo "gem install compass susy"
-#           gem install compass susy
-#     - internal/watch:
-#         code: |
-#           make clean html
-#           cp -r dist/* /usr/share/nginx/html/
-#           echo "ls /usr/share/nginx/html/"
-#           ls -laR /usr/share/nginx/html/
-#     - script:
-#         name: run nginx
-#         code: |
-#           nginx
-
-# build:
-#   steps:
-#     - install-packages:
-#         packages: make ruby-dev libffi-dev build-essential
-#     - script:
-#         name: gem_install
-#         code: |
-#           echo "gem install compass susy"
-#           gem install compass susy
-#     - script:
-#         name: make_html
-#         code: |
-#           echo "going to make html"
-#           make html
-
-# build:
-#   box:
-#     id: nginx:stable-alpine
-#     cmd: /bin/sh
-#   steps:
-#     - script:
-#         name: echo nginx information
-#         code: nginx -v
-#     - script:
-#         name: copy the config
-#         code: cp resources/proxy.conf /etc/nginx/conf.d/default.conf
-#     - script:
-#         name: test nginx config
-#         code: nginx -t
-#     - script:
-#         name: dump nginx config
-#         code: nginx -T
+box: warfox/pandoc-debian
 
 build:
   steps:
-    - install-packages:
-        packages: make build-essential zlibc zlib1g-dev cabal-install
     - script:
-        name: cabal install pandoc
-        code: |
-          cabal update
-          cabal install pandoc-1.19.2.1 --global
+        name: pandoc version
+        code: pandoc --version
     - script:
         name: make html
         code: |
-          pandoc --version
           make html
-          cat dist/index.html
 
 deploy:
     steps:
