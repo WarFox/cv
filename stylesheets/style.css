@@ -30,10 +30,12 @@ header h1 a { font-size: 1.3em;}
 
 .addr .help-block { margin-top: 0; margin-bottom: 0;}
 
+section { padding-bottom: 5px; }
+
 section h2 {
-  font-size: 1.3em;
+  text-align: center;
+  font-size: 1.4em;
   border-bottom: 1px solid #ccc;
-  margin-top: 5px;
   margin-bottom: 5px;
 }
 

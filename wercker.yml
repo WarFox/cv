@@ -1,13 +1,14 @@
-box: debian
+box: warfox/pandoc-debian
+
 build:
   steps:
     - script:
-        name: build
+        name: pandoc version
+        code: pandoc --version
+    - script:
+        name: make html
         code: |
-          echo "make build"
-          mkdir public
-          cp index.html public/index.html
-          cp resume*.css public/
+          make html
 
 deploy:
     steps:
@@ -28,4 +29,4 @@ deploy:
             code: |
                 pwd
                 ls -la
-                scp -i $PRIVATEKEY_PATH -o StrictHostKeyChecking=no -o UserKnownHostsFile=no -P $PORT -v -r public/* $USER@$HOSTNAME:$DEPLOY_DIR
+                scp -i $PRIVATEKEY_PATH -o StrictHostKeyChecking=no -o UserKnownHostsFile=no -P $PORT -v -r dist/* $USER@$HOSTNAME:$DEPLOY_DIR
