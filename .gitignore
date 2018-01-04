@@ -16,3 +16,4 @@ _projects
 # User specific
 dist
 build
+*.env

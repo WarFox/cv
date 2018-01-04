@@ -1,6 +1,6 @@
-SRC_DIR = sources
-DIST_DIR = dist
-UTC_DATE_TIME = $(shell date -u +'%B %d, %Y %H:%M:%S UTC')
+SRC_DIR=sources
+DIST_DIR=dist
+UTC_DATE_TIME=$(shell date -u +'%B %d, %Y %H:%M:%S UTC')
 
 # default target is build CV in html
 all: html
