@@ -25,7 +25,7 @@ ownership.
 ## Career Summary
 
 - Polyglot software engineer with around 8 years experience in Java, Scala,
-  Node.js (Python and Ruby)
+  Node.js, Python (and Ruby)
 - Language and platform agnostic approach for problem-solving with a focus on
   keeping it simple.
 - Worked in Banking, Social Media, Advertising, Travel, and Government sector
@@ -77,13 +77,6 @@ Strengths include:
 
 </div>
 
-## Achievements
-
-- Received more than 100% bonus for excellent performance from Collective.
-- Recipient of certificate of appreciation, for the quality and dedication, 3 times from JMR Infotech.
-- Direct email from the CEO appreciating performance and skills.
-- Won programming competitions held at college
-
 ## Professional History
 
 ### [June 2017 - Till Date]{.date} [[Valtech](https://valtech.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
@@ -92,8 +85,37 @@ Joined Valtech as a Senior Java/Scala consultant.
 
 ### Projects
 
-1. CSHR Faststream Candidates
+#### 1. CSHR Faststream Candidates
+
+##### [June 2017 – October 2017]{.date},  [CSHR](https://www.gov.uk/government/organisations/civil-service-fast-stream){.fn .org .url}, [London, UK]{.region}
+
+Project Type: Website, Customer responsive platforms
+
+The UK government recruits talent for the Civil Service through their apprenticeship scheme (Fast Track) and flagship graduate scheme (Fast Stream). Currently candidates complain of a poorly designed, inaccessible service along with long wait times to hear if they’ve been successful.
+
+Valtech will re-design the two services, with new GOV.UK services for candidates to apply and undertake online tests, as well as looking at the entire service from the back office to candidate support. The online service will be quick and easy to use, on any device - meaning there’ll be a higher number of quality candidates. A streamlined process will result in candidates going from application to assessment centre far more quickly.
+
 This project involved creating API, candidate frontend and admin frontend for UK Government Civil Service HR Faststream candidate application.
+Part of this project is open source and is available at [https://github.com/hmrc/fset-faststream](https://github.com/hmrc/fset-faststream), [https://github.com/hmrc/fset-faststream-frontend](https://github.com/hmrc/fset-faststream-frontend)
+
+Technologies Used:
+Scala (Play framework), HTML5, CSS3, JS, Progressive enhancement, Responsive web design
+
+#### 2. Data analytics platform
+Client: Private
+
+Data project to analyse large volumes of data on Hadoop echo system on Microsoft Azure platform. This project has a data pipeline part, some data scrapping and data analysis part. Data came from various motors and sensors.
+
+* Get vessel and weather information from web using Microdata and API's in Python
+* Data pipeline built on Azure HDInsights platform
+* Apply transformations to Hive tables using PySpark based on algorithms by data scientists
+* Created a Workload report of HDInsights using Azure Runbooks, using Yarn and Livy APIs
+* Build a data analytics platform on Azure using HDInsights, Spark and Jupyter
+* Setup Ansible playbooks for configuring JupyterHub and users
+* Explored Apache Ranger using Hortonworks Sandbox on Ubuntu
+
+Technologies Used:
+Jupyter, Apache Spark, HDInsights, Azure, Ansible, Plotly, Apache Livy, Hortonworks, Python, Azure Storage accounts
 
 ### [August 2015 — Jan 2017]{.date} [[Expedia Affiliate Network](http://www.expediaaffiliate.com/){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
 
@@ -111,29 +133,27 @@ The project involved building a reporting platform using micro-services
 architecture in a Kanban environment. RESTful API’s were built using
 Node.js and front end was built with React.
 
-Developed user identity management and implemented authorisation
-algorithm using JSON Web Tokens(JWT) and oAuth.\
-Designed and implement various REST API endpoints in Node.js and Restify
+* Developed user identity management service API and implemented authorisation
+algorithm using JSON Web Tokens(JWT) and oAuth.
+* Designed and implement various REST API endpoints in Node.js and Restify
 for getting the data. HATEOAS (Hypermedia As The Engine Of Application
 State) pattern was used for linking between resources.
 
-Wrote a framework Chef Cookbook for deploying Node.js based services.\
-Wrote Chef cookbooks for various services, including rspec tests and
+* Wrote a framework Chef Cookbook (Library cookbook) for deploying Node.js based services.
+* Wrote Chef cookbooks (Application Cookbook) for various services, including rspec tests and
 integration tests with kitchen vagrant. Acted as pseudo DevOps member
 within the team.
 
-Implemented API Gateway using nginx and Chef.\
-Implemented Service Discovery using Hashicorp Consul. This radically
+* Implemented API Gateway using nginx and Chef.
+* Implemented Service Discovery using Hashicorp Consul. This radically
 improved the time required for the service to be available in the
-gateway after deployment.\
-Implemented next iteration of API Gateway with nginx, Consul and chef.\
-Deployment in AWS Cloud. Setup nodes using Scalr. Fix various deployment
-issues.\
-
-Did a brown bag session on Hashicorp Consul and service discovery, which
+gateway after deployment.
+* Implemented next iteration of API Gateway with nginx, Consul and chef.
+* Deployment in AWS Cloud. Setup nodes using Scalr. Fix various deployment
+issues.
+* Did a brown bag session on Hashicorp Consul and service discovery, which
 was well-received.
-
-Worked closely with Operations team to deploy services to Production
+* Worked closely with Operations team to deploy services to Production
 environment.
 
 Technologies Used: Node.js, Chef, cookbooks, rspec, serverspec,
@@ -145,23 +165,22 @@ Big data analytics project for detecting anomalies in various time
 series data using machine learning techniques. Worked closely with Data
 scientists to develop models and the platform.
 
-Worked closely with Data scientists to create models in Scala to run on
-Apache Spark. Original models were written in Python and R.\
-Used Spark to parallelise forecasting based on splits of data.\
+* Worked closely with Data scientists to create models in Scala to run on
+Apache Spark. Original models were written in Python and R.
+* Used Spark to parallelise forecasting based on splits of data.
 Wrote Scala based tool for triggering AWS Simple Notification Service
-(SNS).\
-Automated Airflow DAG creation using Python based on configuration files
-in AWS S3.\
-Wrote AWS Lambda functions in Python to trigger data pipeline.\
-Setup Elastic Search cluster on AWS cloud. Wrote a script to automate
-the process.\
-Optimised data ingestion to Elasticsearch from Hive on AWS Elastic Map
-Reduce (EMR), brought down the time taken from 3.5 hours to 20 minutes.\
-Used Spark to move data from Teradata to S3 in Parquet format.\
+(SNS).
+* Automated Airflow DAG creation using Python based on configuration files
+in AWS S3.
+* Wrote AWS Lambda functions in Python to trigger data pipeline.
+* Setup Elastic Search cluster on AWS cloud. Wrote a script to automate
+the process.
+* Optimised data ingestion to Elasticsearch from Hive on AWS Elastic Map
+Reduce (EMR), brought down the time taken from 3.5 hours to 20 minutes.
+* Used Spark to move data from Teradata to S3 in Parquet format.
 
 Technologies Used: Apache Spark, Hive, AWS Cloud, AWS Lambdas, Python,
 AWS SNS, AWS Elastic Map Reduce, Scala, Python, Airflow, Bamboo
-
 
 ### [February 2015 — June 2015]{.date} [[Kainos](https://www.kainos.com/){.fn .org .url}, [Burnley, UK]{.region}]{.company .pull-right}
 
