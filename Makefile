@@ -23,7 +23,8 @@ html: css templates/cv.html $(SRC_DIR)/cv.md | directories
 	  --to html5 \
 	  --variable=utc_date_time:'$(UTC_DATE_TIME)' \
 	  --css stylesheets/style.css \
-	  --output $(DIST_DIR)/index.html $(SRC_DIR)/cv.md
+	  --output $(DIST_DIR)/index.html \
+		$(SRC_DIR)/cv.md
 
 # Target for cleaning
 clean:
