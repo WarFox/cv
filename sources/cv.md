@@ -15,40 +15,34 @@ social:
 
 ## Summary
 
-- Polyglot software engineer with around 8 years experience in Java, Scala,
-  Node.js, Python (and Ruby)
-- Worked in machine learning and data pipeline projects using Apache Spark, AWS EMR, Azure HDInsights and Elasticsearch.
+- Polyglot software engineer with more than 8 years experience
+- Flexible in Java, Scala, Node.js, Python (and Ruby for Chef)
+- Machine learning and data pipeline projects using Apache Spark, AWS EMR, Azure HDInsights and Elasticsearch.
 - Language and platform agnostic approach for problem-solving with a focus on
   keeping it simple.
-- Worked in Banking, Social Media, Advertising, Travel, and Government sector
+- Fan of automation and DevOps tools like Terraform, Ansible, Chef and always does CI/CD
+- Worked on cloud platforms like AWS and Azure
+- Experience in Banking, Social Media, Advertising, Travel, and Government sector
   domains.
-- Contributed to open source projects like Dropwizard, Play framework etc on
-  GitHub.
-- Expertise in designing and developing RESTful services.
 - Experience working in Agile (Scrum, Kanban) methodology with test-driven
   development (TDD) and pair programming.
+- Expertise in designing and developing RESTful services.
 - Full stack web application development, covering front end, middleware, and
   backend, including system architecture and database designing
-- Experience in full life-cycle of software development process including
-  requirement collection, design specification, development, testing, debugging,
-  deployment and maintenance.
-- Experience in working at multiple client sites and acted as a single point of
-  contact and lead the team in development.
-- Proven track record of designing and developing flexible solutions, which
-  support frequent changes to functionality and UI, to meet the client
-  requirements.
+- Contributed to open source projects like Dropwizard, Play framework etc on
+  GitHub.
 - Master's degree in E-Business and Information Systems from Newcastle
   University, UK.
 - Bachelor's in Computer Science and Engineering from the University
   of Calicut, India.
-- I am always learning
+- Continuous learner
 
 Strengths include:
 
 <div class="col-md-4">
 
 - Object Oriented programming
-- Distributed/Client-Server systems
+- Functional Programming
 - Team Player
 
 </div>
@@ -56,7 +50,7 @@ Strengths include:
 <div class="col-md-4">
 
 - Understanding of design patterns
-- Functional & Design documentation
+- Distributed/Client-Server systems
 - Critical analysis & problem solving skills
 
 </div>
@@ -64,7 +58,7 @@ Strengths include:
 <div class="col-md-4">
 
 - Good communication skills
-- Database Development
+- Data Engineering
 - Proactive self-learner & motivated by achievements
 
 </div>
@@ -73,41 +67,59 @@ Strengths include:
 
 ### [June 2017 - Till Date]{.date} [[Valtech](https://valtech.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
 
-Joined Valtech as a Senior Technical consultant.
+I joined Valtech as Senior Technical consultant. At Valtech I got training on presentation skills, which I used to present a talk on Anomaly Detection in time series data.
 
 ### Projects
 
-#### 1. CSHR Faststream Candidates
+#### 1. Website customer behaviour prediction
+##### [January 2018 – Current Project]{.date}, [London, UK]{.region}
+Role: Data Engineer/DevOps
 
-##### [June 2017 – October 2017]{.date},  [CSHR](https://www.gov.uk/government/organisations/civil-service-fast-stream){.fn .org .url}, [London, UK]{.region}
+-	Research on AWS Sagemaker
+-	Prepare JSON data from Bson using PyMongo library
+-	Design and implement data pipeline using EMR
+-	Design and implement machine learning pipeline using EMR
+-	Streaming data with Kinesis
+-	Streaming KMeans Clustering algorithm using Apache Spark Streaming context
+-	Persistance in S3 and DynamoDB
+-	Visualising streaming clusters with LightningServer and Dash
+-	Infrastructure automation with Terraform and Ansible
 
-Project Type: Website, Customer responsive platforms
+Technologies Used: AWS, Spark, Hive, Python, Jupyter, EMR, Terraform, Zeppelin, AWS Glue, AWS Athena, S3, DynamoDB
 
-The UK government recruits talent for the Civil Service through their apprenticeship scheme (Fast Track) and flagship graduate scheme (Fast Stream). Currently candidates complain of a poorly designed, inaccessible service along with long wait times to hear if they’ve been successful.
-
-Valtech will re-design the two services, with new GOV.UK services for candidates to apply and undertake online tests, as well as looking at the entire service from the back office to candidate support. The online service will be quick and easy to use, on any device - meaning there’ll be a higher number of quality candidates. A streamlined process will result in candidates going from application to assessment centre far more quickly.
-
-This project involved creating API, candidate frontend and admin frontend for UK Government Civil Service HR Faststream candidate application.
-Part of this project is open source and is available at [https://github.com/hmrc/fset-faststream](https://github.com/hmrc/fset-faststream), [https://github.com/hmrc/fset-faststream-frontend](https://github.com/hmrc/fset-faststream-frontend)
-
-Technologies Used:
-Scala (Play framework), HTML5, CSS3, JS, Progressive enhancement, Responsive web design
-
-#### 2. Data analytics platform
-Client: Private
+#### 2. Big-data pipeline and analytics
+##### [October 2017 – December 2017]{.date}, [Norway, London]{.region}
+Role: Data Engineer/DevOps
 
 Data project to analyse large volumes of data on Hadoop echo system on Microsoft Azure platform. This project has a data pipeline part, some data scrapping and data analysis part. Data came from various motors and sensors.
 
-* Get vessel and weather information from web using Microdata and API's in Python
-* Data pipeline built on Azure HDInsights platform
-* Apply transformations to Hive tables using PySpark based on algorithms by data scientists
-* Created a Workload report of HDInsights using Azure Runbooks, using Yarn and Livy APIs
-* Build a data analytics platform on Azure using HDInsights, Spark and Jupyter
-* Setup Ansible playbooks for configuring JupyterHub and users
-* Explored Apache Ranger using Hortonworks Sandbox on Ubuntu
+-	Get vessel and weather information from web using Microdata and API’s in Python
+-	Data pipeline built on Azure HDInsights platform
+-	Apply transformations to Hive tables using PySpark based on algorithms by data scientists
+-	Created a Workload report of HDInsights using Azure Runbooks, using Yarn and Livy APIs
+-	Build a data analytics platform on Azure using HDInsights, Spark and Jupyter
+-	Setup Ansible playbooks for configuring JupyterHub and users
+-	Explored Apache Ranger using Hortonworks Sandbox on Ubuntu
 
-Technologies Used:
-Jupyter, Apache Spark, HDInsights, Azure, Ansible, Plotly, Apache Livy, Hortonworks, Python, Azure Storage accounts
+Technologies Used: Jupyter, Apache Spark, HDInsights, Azure, Ansible, Plotly, Apache Livy, Horton-works, Python, Azure Storage accounts
+
+#### 3. HMRC - Senior Scala Consultant
+##### [June 2017 – October 2017]{.date}, [CSHR](https://www.gov.uk/government/organisations/civil-service-fast-stream){.fn .org .url}, [London, UK]{.region}
+Role: Software Engineer
+
+Project Type: Website, Customer responsive platforms
+
+This is a UK government project delivered following the standards set by Government Digital Services. The UK government uses Fast Track and Fast Stream to recruit talents for the Civil Service.
+
+- Re-design the two services, with new GOV.UK services, so that candidates can apply and attend online tests
+- Back office system for candidate support
+- This is a responsive website service that is easy to use on any device.
+
+This project involved creating API, candidate frontend and admin frontend for UK Government Civil Service HR Faststream candidate application.
+
+Part of this project is open source and is available at https://github.com/hmrc/fset-faststream, https://github.com/hmrc/fset-faststream-frontend
+
+Technologies Used: Scala (Play framework), HTML5, CSS3, JS, Progressive enhancement, Respon-sive web design
 
 ### [August 2015 — Jan 2017]{.date} [[Expedia Affiliate Network](http://www.expediaaffiliate.com/){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
 
