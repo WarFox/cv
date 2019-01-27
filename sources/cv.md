@@ -15,8 +15,8 @@ social:
 
 ## Summary
 
-- Polyglot software engineer with more than 8 years experience
-- Flexible in Java, Scala, Node.js, Python (and Ruby for Chef)
+- Polyglot software engineer with now focusing on Data Engineering and Clojure
+- Previous experience in Java, Scala, Node.js, Python (and Ruby for Chef)
 - Machine learning and data pipeline projects using Apache Spark, AWS EMR, Azure HDInsights and Elasticsearch.
 - Language and platform agnostic approach for problem-solving with a focus on
   keeping it simple.
@@ -65,9 +65,23 @@ Strengths include:
 
 ## Professional History
 
-### [June 2017 - Till Date]{.date} [[Valtech](https://valtech.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
+### [August 2018 - Till Date]{.date} [[Funding Circle](https//fundingcircle.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
+Senior Data Engineer
 
-I joined Valtech as Senior Technical consultant. At Valtech I got training on presentation skills, which I used to present a talk on Anomaly Detection in time series data.
+Funding Circle is a leading small business loans platform, where investors lend
+to small businesses.
+
+I work within the data team to develop a scalable data warehouse within the AWS
+environment. Developing data pipeline and ETL workflows, using dimensional fact
+models (Kimball modelling).
+
+Technologies used: Clojure, Python, AWS, Kafka, Mesos, Chronos, Docker, Jenkins, Circle CI, PostgreSQL, Athena
+
+### [June 2017 - July 2018]{.date} [[Valtech](https://valtech.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
+
+I joined Valtech as Senior Technical consultant. At Valtech I got training on
+presentation skills, which I used to present a talk on Anomaly Detection in time
+series data.
 
 ### Projects
 
@@ -91,7 +105,9 @@ Technologies Used: AWS, Spark, Hive, Python, Jupyter, EMR, Terraform, Zeppelin, 
 ##### [October 2017 – December 2017]{.date}, [Norway, London]{.region}
 Role: Data Engineer/DevOps
 
-Data project to analyse large volumes of data on Hadoop echo system on Microsoft Azure platform. This project has a data pipeline part, some data scrapping and data analysis part. Data came from various motors and sensors.
+Data project to analyse large volumes of data on Hadoop echo system on Microsoft
+Azure platform. This project has a data pipeline part, some data scrapping and
+data analysis part. Data came from various motors and sensors.
 
 -	Get vessel and weather information from web using Microdata and API’s in Python
 -	Data pipeline built on Azure HDInsights platform
@@ -109,7 +125,9 @@ Role: Software Engineer
 
 Project Type: Website, Customer responsive platforms
 
-This is a UK government project delivered following the standards set by Government Digital Services. The UK government uses Fast Track and Fast Stream to recruit talents for the Civil Service.
+This is a UK government project delivered following the standards set by
+Government Digital Services. The UK government uses Fast Track and Fast Stream
+to recruit talents for the Civil Service.
 
 - Re-design the two services, with new GOV.UK services, so that candidates can apply and attend online tests
 - Back office system for candidate support
@@ -336,7 +354,8 @@ offshore support and client site development projects.
 #### Software Engineer/Technical Consultant
 
 - Was deployed in client site and acted as single point of contact.
-- Lead the team in design and development and also gave training to team members and knowledge transfer to new members.
+- Lead the team in design and development and also gave training to team members
+  and knowledge transfer to new members.
 - Designed and developed Java based web framework for development.
 - Training in Flexcube (OFSS), PL/SQL and Oracle Forms.
 - Offshore support for Flexcube.
@@ -346,11 +365,21 @@ offshore support and client site development projects.
 #### Projects
 
 - User and session management module - Created the complete design document for the project.
-- Customised account reports from Flexcube database - Lead developer in Java, JQuery, Hibernate, Jasper Reports, production deployment in Websphere server
-- Bank cheque truncation automation project - Lead developer in Java Swing interface between Flexcube and cheque truncation automation vendor. The Swing application generates XML files as specified by the client in a given location.
-- Credit card tab for Internet Banking - Developed in Java, production deployment in Websphere server. The credit card tab worked by consuming Webservice (SOAP) provided by Credit card vendor.
-- Bulk Signature Uploader - Upload scanned signature images from a given location. Single-handedly developed. Used XML for representing data and XSLT to translate to html.
-- Data double entry - Web application to verify same data entered by two employees. Single-handedly developed. Used XML for representing data and XSLT to translate to html.
+- Customised account reports from Flexcube database - Lead developer in Java,
+  JQuery, Hibernate, Jasper Reports, production deployment in Websphere server
+- Bank cheque truncation automation project - Lead developer in Java Swing
+  interface between Flexcube and cheque truncation automation vendor. The Swing
+  application generates XML files as specified by the client in a given
+  location.
+- Credit card tab for Internet Banking - Developed in Java, production
+  deployment in Websphere server. The credit card tab worked by consuming
+  Webservice (SOAP) provided by Credit card vendor.
+- Bulk Signature Uploader - Upload scanned signature images from a given
+  location. Single-handedly developed. Used XML for representing data and XSLT
+  to translate to html.
+- Data double entry - Web application to verify same data entered by two
+  employees. Single-handedly developed. Used XML for representing data and XSLT
+  to translate to html.
 - Company Website - Built on DotNetNuke. Team member.
 - Search Engine Optimization - Webmaster
 
@@ -458,5 +487,6 @@ understanding of subject.
 
 - Movies
 - Wall Climbing
+- Travelling
 - Sky Diving
 - Blogging - I write about technology in my blog at <https://deepumohan.com/tech/>
