@@ -15,7 +15,7 @@ social:
 
 ## Summary
 
-- Polyglot software engineer with now focusing on Data Engineering and Clojure
+- Polyglot software engineer now focusing on Data Engineering and Clojure
 - Previous experience in Java, Scala, Node.js, Python (and Ruby for Chef)
 - Machine learning and data pipeline projects using Apache Spark, AWS EMR, Azure HDInsights and Elasticsearch.
 - Language and platform agnostic approach for problem-solving with a focus on
@@ -385,20 +385,23 @@ offshore support and client site development projects.
 
 ## Skills
 
-  ------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Languages           [Java]{.skill}, [PL/SQL]{.skill}, [JavaScript]{.skill}, [shell scripting]{.skill}, [Python scripting]{.skill}, [Scala]{.skill}
+------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Languages           [Java]{.skill}, [PL/SQL]{.skill}, [JavaScript]{.skill}, [shell scripting]{.skill}, [Python scripting]{.skill}, [Scala]{.skill}
   Web                 [HTML]{.skill}, [CSS]{.skill}, [JavaScript]{.skill}, [JQuery]{.skill}, [AngularJS]{.skill}, [Backbone.js]{.skill}, [RequireJS]{.skill}, [AJAX]{.skill}, [JSON]{.skill}, [Web Service]{.skill}, [Bootstrap]{.skill}
   APIs                [JEE (JSP]{.skill}, [Servlets]{.skill}, [Filters)]{.skill}, [JPA]{.skill}, [JAXB]{.skill}, [JUnit]{.skill}, [Jasper Reports]{.skill}, [Log4J]{.skill}
   Frameworks          [Play Framework]{.skill}, [Spring Core]{.skill}, [Spring MVC]{.skill}, [Spring Roo]{.skill}, [Spring Security]{.skill}, [Hibernate]{.skill}, [Spring Data Neo4J]{.skill}, [Spring JUnit]{.skill}
   Methodologies       [Agile (Scrum)]{.skill}, [OOP]{.skill}, [Design Patterns]{.skill}
   Middleware          [Apache Tomcat]{.skill}, [Websphere]{.skill}, [nginx]{.skill}
-  Operating Systems   [Mac OSX]{.skill}, [Linux]{.skill}, [Windows]{.skill}
+  Cloud Platform      [Amazon Web Services (AWS)]{.skill}, [Microsoft Azure]{.skill}
+  Automation          [Chef]{.skill}, [Ansible]{.skill}, [Terraform]{.skill}
+  Service Discovery   [Consul]{.skill}
+  Big Data            [Apache Spark]{.skill}, [Hive]{.skill}, [EMR]{.skill}
   Database            [Oracle]{.skill}, [PostgreSQL]{.skill}, [MySQL]{.skill}, [Neo4J]{.skill}(NoSQL graph database)
   Tools               [IntelliJ IDEA]{.skill}, [Spring Tool Suite]{.skill}, [Eclipse]{.skill}, [Toad]{.skill}, [PL/SQL Developer]{.skill}, [pgAdmin]{.skill}, [Sequel Pro]{.skill}
   Source control      [git]{.skill}, [svn]{.skill}, [perforce]{.skill}
   Cache               [Redis]{.skill}, [EhCache]{.skill}
   Acquainted with     [C]{.skill}, [C++]{.skill}, [R]{.skill}, [PHP]{.skill}, [Ruby]{.skill}
-  Unofficial          [Amazon Web Services]{.skill}, [MongoDB]{.skill}, [Travis CI]{.skill}
+  Unofficial          [MongoDB]{.skill}, [Travis CI]{.skill}
   ------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Education
