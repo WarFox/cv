@@ -71,11 +71,28 @@ Senior Data Engineer
 Funding Circle is a leading small business loans platform, where investors lend
 to small businesses.
 
-I work within the data team to develop a scalable data warehouse within the AWS
-environment. Developing data pipeline and ETL workflows, using dimensional fact
-models (Kimball modelling).
+I work within the data platform team to develop a scalable data warehouse within
+the AWS environment. Developing data pipeline and ETL workflows, using
+dimensional fact models (Kimball modelling). Worked on streaming, batch and
+event based jobs.
 
-Technologies used: Clojure, Python, AWS, Kafka, Mesos, Chronos, Docker, Jenkins, Circle CI, PostgreSQL, Athena
+- Introduced the concept of “inversion of control” in the way data related
+  products were setup at Funding Circle, that fundamentally changed how we built
+  tools. This concept allowed us to deliver solutions faster for a wide range of
+  data products and data science projects.
+- Designed and developed data validation tool using Clojure that can validate
+  data on multiple datasources like Postgres and AWS Athena
+- Proposed a better way for deploying Airflow DAG within our infrastructure
+  which my team implemented later.
+- Built ETL’s based on Kafka streaming, Athena SQL and Glue
+- Streamlined Glue and Lambda deployments using automation tools.
+- Proposed solution for a generic data loader for documents in multiple formats
+  like JSON, XML and CSV, that supports schema validation and evolution.
+
+Gave several suggestions on technology choices and improvements throughout my career in tech review meetings
+Taught Python to both internal and external candidates as part of DiversiTech Initiative in FundingCircle
+
+Technologies used: Clojure, Python, Scala, AWS, Avro, Kafka, Mesos, Chronos, Docker, Jenkins, Circle CI, PostgreSQL, Athena, HugSQL, AWS Glue, Kafka S3 sinker.
 
 ### [June 2017 - July 2018]{.date} [[Valtech](https://valtech.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
 

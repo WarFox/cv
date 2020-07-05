@@ -26,6 +26,12 @@ html: css templates/cv.html $(SRC_DIR)/cv.md | directories
 	  --output $(DIST_DIR)/index.html \
 		$(SRC_DIR)/cv.md
 
+# Target for building docx
+docx:
+	pandoc --standalone \
+    --output doc.docx \
+    $(SRC_DIR)/cv.md
+
 # Target for cleaning
 clean:
 	rm -rf $(DIST_DIR)
