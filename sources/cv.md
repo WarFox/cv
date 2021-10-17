@@ -17,11 +17,11 @@ social:
 
 - Polyglot software engineer now focusing on Data Engineering and Clojure
 - Previous experience in Java, Scala, Node.js, Python (and Ruby for Chef)
-- Machine learning and data pipeline projects using Apache Spark, AWS EMR, Azure HDInsights and Elasticsearch.
+- Machine learning and data pipeline projects using Apache Spark, AWS EMR, and Elasticsearch.
 - Language and platform agnostic approach for problem-solving with a focus on
   keeping it simple.
 - Fan of automation and DevOps tools like Terraform, Ansible, Chef and always does CI/CD
-- Worked on cloud platforms like AWS and Azure
+- AWS Certified Solutions Architect - Associate
 - Experience in Banking, Social Media, Advertising, Travel, and Government sector
   domains.
 - Experience working in Agile (Scrum, Kanban) methodology with test-driven
@@ -41,16 +41,16 @@ Strengths include:
 
 <div class="col-md-4">
 
-- Object Oriented programming
-- Functional Programming
+- Proceducal, Functional, and OOP
 - Team Player
+- Mentoring junior engineer
 
 </div>
 
 <div class="col-md-4">
 
 - Understanding of design patterns
-- Distributed/Client-Server systems
+- Client-Server systems
 - Critical analysis & problem solving skills
 
 </div>
@@ -65,8 +65,22 @@ Strengths include:
 
 ## Professional History
 
-### [August 2018 - Till Date]{.date} [[Funding Circle](https//fundingcircle.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
-Senior Data Engineer
+### [July 2018 - Till Date]{.date} [[Funding Circle](https//fundingcircle.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
+
+[January 2021 – Till Date]{.date} - Princial Engineer
+
+Various POCs, standardisations, data reliability engineering and support the
+data platform engineering teams. Working an next generation machine learning
+piplines using Sagemaker. Data access protection using Lakeformation.
+
+[January 2020 – January 2021]{.date} - Senior Data Engineer II
+
+Introduced AWS Fargate as an option to run tasks instead of Mesos within Data
+Platform. Brought down cost of AWS Glue and S3 by redesiging pipeline with a
+compaction step. Introduced the idea of "decentralised" projects to isolate
+related resources in their on repositories. Lots of interviews.
+
+[July 2018 – January 2020]{.date} - Senior Data Engineer
 
 Funding Circle is a leading small business loans platform, where investors lend
 to small businesses.
@@ -90,9 +104,12 @@ event based jobs.
   like JSON, XML and CSV, that supports schema validation and evolution.
 
 Gave several suggestions on technology choices and improvements throughout my career in tech review meetings
-Taught Python to both internal and external candidates as part of DiversiTech Initiative in FundingCircle
+Taught Python to both internal and external candidates as part of DiversiTech
+Initiative in FundingCircle in addition to mentoring junior engineers.
 
-Technologies used: Clojure, Python, Scala, AWS, Avro, Kafka, Mesos, Chronos, Docker, Jenkins, Circle CI, PostgreSQL, Athena, HugSQL, AWS Glue, Kafka S3 sinker.
+Technologies used: Clojure, Python, Scala, Terraform, Avro, Kafka, Mesos,
+Chronos, Docker, Jenkins, Circle CI, PostgreSQL, Athena, HugSQL, AWS Glue, Kafka
+S3 sinker.
 
 ### [June 2017 - July 2018]{.date} [[Valtech](https://valtech.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
 
