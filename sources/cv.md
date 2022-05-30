@@ -67,11 +67,15 @@ Strengths include:
 
 ### [July 2018 - Till Date]{.date} [[Funding Circle](https//fundingcircle.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
 
-[January 2021 – Till Date]{.date} - Princial Engineer
+[January 2021 – Till Date]{.date} - Principal Engineer
 
-Various POCs, standardisations, data reliability engineering and support the
+Various POCs, RFCs, standardisations, data reliability engineering and support the
 data platform engineering teams. Working an next generation machine learning
 piplines using Sagemaker. Data access protection using Lakeformation.
+
+RFC for AWS account segregation within organisation for data, POC for metadata
+platform using DataHub, metadata tagging, migration tools and projects etc. was
+delivered while being Principal Engineer at Funding Circle.
 
 [January 2020 – January 2021]{.date} - Senior Data Engineer II
 
