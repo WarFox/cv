@@ -15,59 +15,68 @@ social:
 
 ## Summary
 
-- Polyglot software engineer now focusing on Data Engineering and Clojure
-- Previous experience in Java, Scala, Node.js, Python (and Ruby for Chef)
-- Machine learning and data pipeline projects using Apache Spark, AWS EMR, and Elasticsearch.
-- Language and platform agnostic approach for problem-solving with a focus on
-  keeping it simple.
-- Fan of automation and DevOps tools like Terraform, Ansible, Chef and always does CI/CD
-- AWS Certified Solutions Architect - Associate
-- Experience in Banking, Social Media, Advertising, Travel, and Government sector
-  domains.
-- Experience working in Agile (Scrum, Kanban) methodology with test-driven
-  development (TDD) and pair programming.
-- Expertise in designing and developing RESTful services.
-- Full stack web application development, covering front end, middleware, and
-  backend, including system architecture and database designing
-- Contributed to open source projects like Dropwizard, Play framework etc on
-  GitHub.
-- Master's degree in E-Business and Information Systems from Newcastle
-  University, UK.
-- Bachelor's in Computer Science and Engineering from the University
-  of Calicut, India.
-- Continuous learner
+A well-rounded polyglot generalist software engineer with around 14 years across
+backend, frontend, infrastructure, data engineering, data platforms, and
+event-driven systems. Research-oriented continuous learner who is always looking
+for ways to expand my knowledge and skills in computer science. Proven track
+record in leading teams to solve complex technical challenges, implementing
+DevOps and CI/CD practices, and reducing cloud infrastructure costs.
 
-Strengths include:
+Passionate about continuous learning and innovation, aiming to leverage
+expertise to drive impactful solutions in software engineering. I have
+consistently demonstrated my ability to propose ideas and validate their
+feasibility through examples. I favour solid design with fast iteration over
+quick-and-dirty solutions that impede future modifications. I can work
+independently and as part of a team and am always willing to go the extra mile
+to get the job done.
 
-<div class="col-md-4">
+I enjoy collaboratively building end-to-end solutions and can do functional
+programming, object-oriented programming, system design, and architecture. I am
+driven by a desire to solve complex problems and innovate continuously.
+Continuous improvement is better than delayed perfection.
 
-- Proceducal, Functional, and OOP
-- Team Player
-- Mentoring junior engineer
-
-</div>
-
-<div class="col-md-4">
-
-- Understanding of design patterns
-- Client-Server systems
-- Critical analysis & problem solving skills
-
-</div>
-
-<div class="col-md-4">
-
-- Good communication skills
-- Data Engineering
-- Proactive self-learner & motivated by achievements
-
-</div>
+## Skills
+- Programming Languages: Clojure, Java, Kotlin, Scala, Python, Typescript/JavaScript
+- Tools & Technologies: AWS, Terraform, AWS CDK, Spark, Kafka, Kubernetes, Docker
+- Methodologies: DevOps, CI/CD, Agile, TDD, DDD
+- Disciplines: Backend Engineering, Full Stack Engineering, Data Platform &
+  Engineering, System Design, Cost Optimisation, Technical Leadership, Problem
+  Solving
 
 ## Professional History
 
+### [September 2024 - Till Date]{.date} [[CAIS](https//caisgroup.com){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
+
+- Saved ~1000USD/month on S3 by identifying and deleting millions of unnecessary objects
+- Designed and implemented feature to prevent duplicates in historical records
+  spanning multiple services
+- Reduced time for adding new external integration from months to 1 week by
+  automating the process
+- Reduced time taken for configuring various data feeds by building a self
+  service tool for the ops team. Built backend APIs in Spring/Kotlin and
+  frontend in React
+- Optimised code base by deleting ~10,000 lines of code, but still delivering
+  the same business requirements with zero downtime. This improved the
+  maintenance time of the system.
+- Improved developer workflow by identifying and automating a task that took
+  45mins to 1hour per developer
+- Designed and implemented prevention of historic duplicates in outgoing data files
+- Implemented a paginated search api over postgres and jOOQ
+- Identified and fixed several bugs and security vulnerabilities
+
+Technologies Used: Kotlin, Spring Boot, Test Containers, Kubernetes, AWS, Airflow, jOOQ, React
+
 ### [July 2018 - Till Date]{.date} [[Funding Circle](https//fundingcircle.co.uk){.fn .org .url}, [London, UK]{.region}]{.company .pull-right}
 
-[January 2021 – Till Date]{.date} - Principal Engineer
+[January 2021 – July 2024]{.date} - Principal Engineer
+
+Building a self-service data platform for batch analytics, machine learning
+development, and near-realtime processing, improving data accessibility and
+processing efficiency Led technical initiatives, collaborating with the VP of
+Data, Director of Data, Head of Data Engineering, Head of Data Governance, Head
+of ML/AI, Head of Self Service Analytics, and Senior Manager of Data Platform,
+along with internal partners like Product, InfoSec, and SRE, to ensure alignment
+and technical excellence
 
 Various POCs, RFCs, standardisations, data reliability engineering and support the
 data platform engineering teams. Working an next generation machine learning
@@ -76,6 +85,9 @@ piplines using Sagemaker. Data access protection using Lakeformation.
 RFC for AWS account segregation within organisation for data, POC for metadata
 platform using DataHub, metadata tagging, migration tools and projects etc. was
 delivered while being Principal Engineer at Funding Circle.
+
+Wrote down Data Platfrom Principles that makes it clear for stakeholders and
+teams to meet the expectations. Wrote Standards for Monitoring and Alerting.
 
 [January 2020 – January 2021]{.date} - Senior Data Engineer II
 
